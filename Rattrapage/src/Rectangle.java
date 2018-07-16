@@ -3,7 +3,7 @@ public class Rectangle extends Figure{
 	private double largeur;
     private double longueur;
 
-    public Rectangle(double larg, double longueur) {
+    public void SetRectangle(double larg, double longueur) {
         this.largeur = larg;
         this.longueur = longueur;
     }
